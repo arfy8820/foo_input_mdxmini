@@ -33,4 +33,6 @@ The x64 and x86 builds passed the decoder, Windows accessibility and isolated fo
 
 The vendored [mdxmini](https://github.com/mistydemeo/mdxmini) source is pinned to commit `003531a471c1955f4ed4357d0e2a6cba809c34a0`. The component uses the upstream sequencer and synth cores with local changes for in-memory input, per-channel mute, bounded parsing and buffer cleanup. See [upstream credits](vendor/mdxmini/AUTHORS) and [GPL terms](vendor/mdxmini/COPYING).
 
-The statically linked MDX component is distributed under the GNU General Public License version 2. The source and build scripts corresponding to each release are available from its Git tag. The foobar2000 SDK is available separately under its own license.
+## License
+
+The combined foobar2000 component, which statically links mdxmini, is distributed under the [GNU General Public License version 2](LICENSE). The corresponding source, including the vendored mdxmini code and the build scripts, is available from the Git tag for each [release](https://github.com/arfy8820/foo_input_mdxmini/releases). The separately available [foobar2000 SDK](https://www.foobar2000.org/SDK) and its PFC library retain their own terms. Their notices are included in the component packages.
